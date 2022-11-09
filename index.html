@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+  <script src='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js'></script>
+  <link href='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css' rel='stylesheet' />
+
+    <title>Maps </title>
+</head>
+<body>
+
+    <div class="route-settings">
+        <label class="switch">
+          <input id="showDetails" type="checkbox" onclick="drawRoute()">
+          <span class="slider round"></span>
+        </label> 
+        Show route details
+      </div>
+      <div id="my-map"></div>
+      
+      <script src="/index.js"></script>
+</body>
+</html>
